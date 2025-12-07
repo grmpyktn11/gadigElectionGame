@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <title>Hunger Games Simulator</title>
-0  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Anime School Battle Royale</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>Hunger Games Simulator</h1>
+  <center>
+    <h1>Anime School Battle Royale</h1>
 
-  <div id="setup">
-    <h2>Enter Tribute Names (one per line)</h2>
-    <textarea id="nameInput" rows="10" cols="30" placeholder="Alice\nBob\nCharlie"></textarea><br><br>
-    <button id="startBtn">Start Game</button>/
-  </div>
+    <div id="setup">
+      <h3>Enter Student Names</h3>
+      <textarea id="nameInput" rows="10" cols="25" placeholder="Reginald&#10;Alfredus&#10;Humphery"></textarea><br><br>
+      <button id="startBtn">Start Semester</button>
+    </div>
 
-  <div id="game" style="display:none;">
-    <button id="nextBtn">Start Round</button>
-    <button id="resetBtn">Reset</button>
-    <hr>
-    <div id="currentScreen"></div>
-  </div>
+    <div id="game" class="hidden">
+      <button id="nextBtn">Continue</button>
+      <button id="resetBtn">Reset</button>
+      <hr size="1" width="400">
+      <div id="currentScreen"></div>
+    </div>
+
+    <p style="font-size:12px; margin-top:30px;"Made for GMU GADIG, feel free to ask for the source code!!</p>
+  </center>
 
   <script src="game.js"></script>
 </body>
