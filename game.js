@@ -90,7 +90,7 @@ function nextStep() {
 
   // Winner check
   if (students.length === 1) {
-    screen.innerHTML = `<h2>${escapeHtml(students[0])} WINS the School Battle Royale!</h2>`;
+    screen.innerHTML = `<h2>${escapeHtml(students[0])} WINS!!!!</h2>`;
     document.getElementById("nextBtn").disabled = true;
     return;
   } else if (students.length === 0) {
@@ -149,7 +149,7 @@ function nextStep() {
 
     if (students.length <= 1) {
       if (students.length === 1) {
-        screen.innerHTML += `<h2>${escapeHtml(students[0])} WINS the School Battle Royale!</h2>`;
+        screen.innerHTML += `<h2>${escapeHtml(students[0])} WINSSSS</h2>`;
       } else {
         screen.innerHTML += `<h2>No students remain.</h2>`;
       }
